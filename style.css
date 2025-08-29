@@ -1,0 +1,78 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 20px;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  color: #444;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 10px;
+}
+
+/* Lists */
+ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Links */
+a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #003366;
+}
+
+/* Contact Info */
+p:first-of-type {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Skills & Tags */
+p strong {
+  color: #000;
+}
